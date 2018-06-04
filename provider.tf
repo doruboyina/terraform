@@ -3,6 +3,6 @@ region     = "us-west-2"
 }
 
 module "cw_elasticsearch" {
-  source = "/root/softwares/watch_elastic/cw_es/lambda"
+  source = "git@github.com:doruboyina/terraform.git//cw_es"
 }
 
